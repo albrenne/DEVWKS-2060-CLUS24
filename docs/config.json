@@ -1,0 +1,59 @@
+{
+  "items": [
+    {
+      "title": "Overview",
+      "content": "00-overview.md"
+    },
+    {
+      "title": "Create Intersight REST API keys",
+      "content": "01-create-api-keys.md"
+    },
+    {
+      "title": "Creating Terraform for IPMI Policy",
+      "content": "02-terraform-intersight-ipmi.md"
+    },
+    {
+      "title": "Creating Terraform for Secure Shell Access Policy",
+      "content": "03-terraform-intersight-ssh.md"
+    },
+    {
+      "title": "Creating Terraform for IP KVM Policy",
+      "content": "04-terraform-intersight-ipkvm.md"
+    },
+    {
+      "title": "Review",
+      "content": "05-summary.md"
+    }
+  ],
+  "config": {
+    "devEnv": {
+      "id": "devenv-tf-ansible",
+      "default_content": "src/"
+    },
+    "video": {},
+    "sandbox": {}
+  },
+  "meta": {
+    "active": true,
+    "slug": "",
+    "time": "90",
+    "tags": [
+      {
+        "title": "Terraform"
+      },
+      {
+        "title": "Intersight"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Tim Miller",
+        "email": "timmil@cisco.com"
+      },
+      {
+        "name": "Allie Brenner",
+        "email": "albrenne@cisco.com"
+      }
+    ]
+  }
+}
