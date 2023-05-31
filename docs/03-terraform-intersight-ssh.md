@@ -23,7 +23,7 @@ Finally, let's identify the Terraform provider resource that corresponds to that
 
 ## Modifying the Terraform
 
-In the GitHub repository that you downloaded, you have been provided the stub of a Terraform configuration to implement this policy.  In the upper right editor, navigate to the **src/DEVWKS-2060-CLAMS23/02-intersight** directory and open the file **workshop-ssh.tf**.
+In the GitHub repository that you downloaded, you have been provided the stub of a Terraform configuration to implement this policy.  In the upper right editor, navigate to the **src/DEVWKS-2060-CLUS23/02-intersight** directory and open the file **workshop-ssh.tf**.
 
 As before, we need to make two changes to this policy:
 
@@ -57,7 +57,7 @@ resource "intersight_ssh_policy" "enable_SSH_login" {
 Once the file is finished, let's apply it:
 
 ```bash
-cd src/DEVWKS-2060-CLAMS23/02-intersight
+cd src/DEVWKS-2060-CLUS23/02-intersight
 terraform init
 terraform apply
 terraform apply --auto-approve
