@@ -1,11 +1,11 @@
 # Intersight REST API Key Generation
 
-Before we begin, we need to download all the code related to this workshop from [GitHub repository](https://github.com/CiscoSE/DEVWKS-2060-CLAMS23).
+Before we begin, we need to download all the code related to this workshop from [GitHub repository](https://github.com/CiscoSE/DEVWKS-2060-CLUS23).
 
 ```bash
 cd /home/developer/src
-git clone https://github.com/eti-tme-tim/DEVWKS-2060-CLAMS23
-cd DEVWKS-2060-CLAMS23
+git clone https://github.com/albrenne/DEVWKS-2060-CLUS23
+cd DEVWKS-2060-CLUS23
 ```
 
 ## Intersight Portal API Key Generation
@@ -94,7 +94,7 @@ In production environments, please choose to conform to better security practice
 Finally, we are going to test the credentials to ensure everything is set up correctly.  From the [Overview](./00-overview.md) module, you cloned the workshop's GitHub repository into the **${HOME}/src** directory.
 
 ```bash
-cd ${HOME}/src/DEVWKS-2060-CLAMS23/01-setup
+cd ${HOME}/src/DEVWKS-2060-CLUS23/01-setup
 terraform init
 terraform plan
 terraform apply --auto-approve

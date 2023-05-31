@@ -24,7 +24,7 @@ Finally, let's identify the Terraform provider resource that corresponds to that
 
 ## Modifying the Terraform
 
-In the GitHub repository that you downloaded, you have been provided the stub of a Terraform configuration to implement this policy.  In the upper right editor, navigate to the **src/DEVWKS-2060-CLAMS23/02-intersight** directory and open the file **workshop-ipmi.tf**.  The contents are reproduced below:
+In the GitHub repository that you downloaded, you have been provided the stub of a Terraform configuration to implement this policy.  In the upper right editor, navigate to the **src/DEVWKS-2060-CLUS23/02-intersight** directory and open the file **workshop-ipmi.tf**.  The contents are reproduced below:
 
 ```
 # IPMI over LAN
@@ -75,7 +75,7 @@ resource "intersight_ipmioverlan_policy" "ipmi_disabled" {
 Once the file is finished, let's apply it:
 
 ```bash
-cd src/DEVWKS-2060-CLAMS23/02-intersight
+cd src/DEVWKS-2060-CLUS23/02-intersight
 terraform init
 terraform apply
 terraform apply --auto-approve
