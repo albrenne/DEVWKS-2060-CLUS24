@@ -27,7 +27,7 @@
   ],
   "config": {
     "devEnv": {
-      "id": "devenv-tf-ansible",
+      "id": "devenv-app-tf-ansible-py3",
       "default_content": "src/"
     },
     "video": {},
