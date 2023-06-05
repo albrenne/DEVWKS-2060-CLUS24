@@ -32,8 +32,8 @@ module "student_orgs_and_roles" {
 
   shared_organization_moid = intersight_organization_organization.shared.moid
   read_only_moid           = local.read_only_moid
-  student_organization     = "student${count.index + 101}"
-  student_email            = "student${count.index + 101}@${var.student_email_domain}"
+  student_organization     = "student${count.index + 1}"
+  student_email            = "student${count.index + 1}@${var.student_email_domain}"
   server_admin_moid        = local.server_admin_moid
   ucs_domain_admin_moid    = local.ucs_domain_admin_moid
   authn_cisco_moid         = local.authn_cisco_moid
