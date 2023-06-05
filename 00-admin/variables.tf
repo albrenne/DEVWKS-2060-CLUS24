@@ -1,7 +1,7 @@
 variable "student_email_domain" {
   description = "Email domain for student accounts"
   type        = string
-  default     = "broadcaststorm.info"
+  default     = "devwks2060.anonaddy.com"
 }
 
 variable "standalone_server_name" {
@@ -19,5 +19,5 @@ variable "shared_organization" {
 variable "number_of_students" {
   description = "How many students are in the lab?"
   type        = number
-  default     = 25
+  default     = 30
 }
